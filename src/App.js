@@ -16,11 +16,9 @@ function App() {
             />
             <Route 
               path="/edu"
-              element={<Home />}
             />
             <Route 
               path="/exp"
-              element={<Home />}
             />
           </Routes>
         </div> 

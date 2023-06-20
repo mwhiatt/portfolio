@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(45, 45, 45);
 }
 
 .pages{
@@ -18,15 +18,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, purple 1%, rgb(17, 0, 17) 100%);
-  color: darkgray;
+  background: linear-gradient(180deg, purple 1%, rgb(45, 45, 45) 100%);
 }
 
 .nav-link {
-  color: darkgray;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
   padding: 25px;
   margin: 10px;
+}
+
+.home {
+  margin: auto;
+  width: 1100px;
+  height: 550px;
+  border-radius: 10px;
+  background: rgb(45, 45, 45);
+  box-shadow: 0 0 10px 10px purple;
+  color: white;
+}
+
+.home > h1 {
+  text-decoration: underline;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.home > p {
+  margin-top: 0;
+  padding-left: 25px;
+  padding-right: 18px;
+  font-size: 16px;
 }
