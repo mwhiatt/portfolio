@@ -1,12 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
         <header className="navbar">
-            <h2>Home</h2>
-            <h2>About</h2>
-            <h2>Education</h2>
-            <h2>Experience</h2>
+            <Link to="/" className='nav-link'>Home</Link>
+            <Link to="/edu" className='nav-link'>Education</Link>
+            <Link to="/exp" className='nav-link'>Experience</Link>
         </header>
     )
 }
