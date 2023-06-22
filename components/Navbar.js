@@ -7,6 +7,8 @@ export default function Navbar() {
             <Link href="/" className='nav-link'>Home</Link>
             <Link href="/edu" className='nav-link'>Education</Link>
             <Link href="/experience" className='nav-link'>Experience</Link>
+            <a className='nav-link' href="https://github.com/mwhiatt">GitHub</a>
+            <a className='nav-link' href="https://www.linkedin.com/in/matt-hiatt/">LinkedIn</a>
         </header>
     )
 }
