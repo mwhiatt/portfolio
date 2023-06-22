@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div className='home'>
-        <h1>About Me</h1>
+        <h1><span>About Me</span></h1>
         <p>
             I am an aspiring software engineer currently entering the 3rd year of a 3+1 combined Computer Science B.S./M.S. program.
             Hence, I will be graduating with a Bachelor's in Computer Science as well as Mathematics in the Spring of 2024, and a Master's
