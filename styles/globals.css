@@ -10,8 +10,7 @@ body {
 
 .pages{
   max-width: 1400px;
-  padding: 20px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .navbar {
@@ -37,9 +36,8 @@ body {
 
 .main-content {
   margin: auto;
-  width: 1100px;
+  width: 80%;
   border-radius: 10px;
-  background: rgb(45, 45, 45);
   box-shadow: 0 0 10px 10px purple;
   color: white;
 }
@@ -70,4 +68,48 @@ body {
   padding-right: 18px;
   font-size: 18px;
   padding-bottom: 15px;
+}
+
+.degree {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.degree-uni {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.degree-coursework--h5 {
+  padding-left: 40px;
+  font-size: 22px;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+.course {
+  padding-top: 6px;
+  padding-left: 50px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.course-title {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  font-style: italic;
+  color: white;
+}
+
+.course-description {
+  font-size: 16px;
+  margin: 0px;
+  padding: 8px;
+  padding-bottom: 2px;
+  margin: 0px;
+  color: white;
 }
