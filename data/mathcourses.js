@@ -24,10 +24,28 @@ export default {
     "link": "https://catalog.purdue.edu/preview_course_nopop.php?catoid=7&coid=54179",
     "term": "Fall 2022"
   }, {
+    "number": "MA 416",
+    "name": "Probability Theory",
+    "description": "Rigorous examination of probability spaces, conditional and independent probabilities, Bayes theorem, continous and discrete probability distributions, moment generating functions, and the central limit theorem.",
+    "link": "https://catalog.purdue.edu/preview_course_nopop.php?catoid=7&coid=54185",
+    "term": "Fall 2022"
+  },{
     "number": "MA 35301",
     "name": "Linear Algebra II",
     "description": "Rigorous examination of topics from Linear Algebra I.",
     "link": "https://catalog.purdue.edu/preview_course_nopop.php?catoid=13&coid=133682",
     "term": "Spring 2023"
+  }, {
+    "number": "MA 341",
+    "name": "Foundations of Analysis",
+    "description": "Introduction to analysis of the real numbers, differentation, and Riemann integration.",
+    "link": "https://catalog.purdue.edu/preview_course_nopop.php?catoid=10&coid=103423",
+    "term": "Fall 2023"
+  }, {
+    "number": "MA 425",
+    "name": "Complex Analysis",
+    "description": "Analysis of complex valued functions, differentiation of complex functions, countour integrals, and elementary conformal mapping.",
+    "link": "https://catalog.purdue.edu/preview_course_nopop.php?catoid=8&coid=78106",
+    "term": "Fall 2023"
   }]
 }

@@ -61,7 +61,7 @@ body {
   color: white;
 }
 
-.main-content > p {
+.default-text {
   padding-top: 10px;
   margin-top: 0;
   padding-left: 40px;
@@ -112,4 +112,30 @@ body {
   padding-bottom: 2px;
   margin: 0px;
   color: white;
+}
+
+.company {
+  padding-left: 35px;
+  padding-bottom: 6px;
+  padding-top: 10px;
+  margin: 0px;
+  font-size: 22px;
+  color: white;
+}
+
+.job-title {
+  padding-left: 50px;
+  padding-top: 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.job-description {
+  padding-top: 10px;
+  margin-top: 0;
+  padding-left: 50px;
+  padding-right: 18px;
+  font-size: 18px;
+  padding-bottom: 15px;
 }
