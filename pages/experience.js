@@ -32,6 +32,15 @@ export default function Experience() {
                     has secure authentificationa and email compatibility. I am currently continuing to devlelop the project on my own but it was originally
                     built on a scrum team with 3 other Purdue students for a software engineering class in the Spring of 2023.
                 </p>
+
+                <a target="_blank" href="https://github.com/mwhiatt/CS180Project5" className="company">Quiz Tool - Fall 2021</a>
+                <h4 className="job-title">Developer</h4>
+                <p className="job-description">
+                    This project was built for my Introduction to OOP class at Purdue. It is a Java application that allows users to create quizzes and take quizzes.
+                    The application stores user data with file I/O locally. It features a graphical user interface built with swing. The application provides support
+                    for teachers to create quizzes from scratch, upload quiz files, and edit existing quizzes. It also allows students to take quizzes and view their
+                    scores once grades have been entered by their instructor.
+                </p>
             </div>
         </div>
         
