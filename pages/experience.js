@@ -33,6 +33,14 @@ export default function Experience() {
                     built on a scrum team with 3 other Purdue students for a software engineering class in the Spring of 2023.
                 </p>
 
+                <a target="_blank" href="https://github.com/mwhiatt/http-server" className="company">HTTP Server</a>
+                <h4 className="job-title">Developer</h4>
+                <p className="job-description">
+                    Developed a HTTP server in C++ that can handle GET requests. The server can be ran in multithreaded, multiprocess, and standard configurations
+                    and has basic HTTP authentification implemented. The server can also handle requests for static files and serves 200, 401, and 404 responses with
+                    more robust support coming in the future. 
+                </p>
+
                 <a target="_blank" href="https://github.com/mwhiatt/CS180Project5" className="company">Quiz Tool - Fall 2021</a>
                 <h4 className="job-title">Developer</h4>
                 <p className="job-description">
