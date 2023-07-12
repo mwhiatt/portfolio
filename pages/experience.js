@@ -1,8 +1,8 @@
 export default function Experience() {
     return (
         <div className="flex flex-col items-center m-4">
-            <div className="rounded-lg shadow-lg shadow-purple-800 text-white mb-12 w-4/5">
-                <h1 className="main-content--h1 text-purple"><span className='main-title'>Work</span></h1>
+            <div className='main-content w-4/5 mb-12'>
+                <h1 className="main-content--h1"><span className='main-title'>Work</span></h1>
                 <h3 className="company">John Deere - Summer 2023</h3>
                 <h4 className="job-title">Software Engineer Intern</h4>
                 <p className="job-description">

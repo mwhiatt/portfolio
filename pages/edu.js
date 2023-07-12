@@ -7,7 +7,7 @@ import mathcourses from "../data/mathcourses";
 
 export default function Edu() {
     return (
-        <div className='main-content w-4/5 m-auto'>
+        <div className='main-content w-4/5 m-auto mt-4'>
             <Collapsible className="degree" trigger={[<EduHeader degree='M.S. Computer Science' date='Fall 2023 - Spring 2025' />, ""]}>
                 <EduBody uni="Purdue University - West Lafayette, IN" courses={mscourses.courses}/>
             </Collapsible>
