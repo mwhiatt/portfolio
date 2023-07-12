@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(45, 45, 45);
+  background-color: theme('colors.background');
 }
 
 .pages{
@@ -14,10 +18,15 @@ body {
 }
 
 .navbar {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, purple 1%, rgb(45, 45, 45) 100%);
+}
+
+.sm\:navbar {
+  display: none;
 }
 
 .nav-link {
@@ -35,8 +44,6 @@ body {
 }
 
 .main-content {
-  margin: auto;
-  width: 80%;
   border-radius: 10px;
   box-shadow: 0 0 10px 10px purple;
   color: white;
@@ -50,7 +57,6 @@ body {
 
 .main-title {
   border-bottom: 4px solid purple;
-  padding-bottom: 10px;
   margin-bottom: 0;
   font-size: 32px;
 }
@@ -115,10 +121,10 @@ body {
 }
 
 .company {
+  @apply underline;
   padding-left: 35px;
   padding-bottom: 6px;
   padding-top: 10px;
-  margin: 0px;
   font-size: 22px;
   color: white;
 }

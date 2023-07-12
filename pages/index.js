@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div className='main-content'>
+        <div className='main-content w-4/5 m-auto mt-4'>
             <h1 className="main-content--h1"><span className='main-title'>About Me</span></h1>
             <p className="default-text">
                 I am an aspiring software engineer currently entering the 3rd year of a 3+1 combined Computer Science B.S./M.S. program.

@@ -1,6 +1,5 @@
-
 import Head from 'next/head'
-import "../styles/globals.css";
+import "../dist/output.css";
 import Navbar from "../components/Navbar";
 import { Analytics } from '@vercel/analytics/react';
 
